@@ -61,4 +61,5 @@ The template covers five sections: context, timeline, root cause, impact, and en
 4. Test your skill with real scenarios.
 5. If you added or removed reference files, link them from `SKILL.md`'s reference table and update the **Skill Contents** table in `README.md`. CI checks that links resolve, but nothing detects a reference file that nothing links to.
 6. If you materially changed what a reference file *covers* — a new section, a scope the old description no longer implies — update its row in both `SKILL.md`'s reference table and `README.md`'s **Skill Contents** table, and the coverage summary under **Included Skill**. The file list staying correct is not the same as the descriptions staying correct: nothing checks the descriptions, and they are what routes a reader to the right file.
-7. Submit a pull request describing what your skill teaches and what problems it solves.
+7. Give the source for each Home Assistant behaviour or version claim (core code at a release tag, or the release blog post) in the PR description, not in the skill. The skill states the claim as plain text ("since 2026.9"). A citation in the skill costs tokens on every read, and the agent cannot act on it.
+8. Submit a pull request describing what your skill teaches and what problems it solves.

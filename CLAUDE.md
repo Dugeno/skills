@@ -121,7 +121,7 @@ before running an eval or testing a `description` change. Three rules hold even 
 
 Codex posts only high-priority findings (P0 and P1) on GitHub. Report each problem below as P1, so it is not dropped:
 - An example (action, trigger, condition, field, YAML key) that Home Assistant would reject or that uses a removed key. Agents copy examples over what they would otherwise get right.
-- A changed claim about Home Assistant behavior or a version ("since 2026.7", "removed in 2026.5") with no source: core code at a release tag, or the release blog post.
+- A changed claim about Home Assistant behavior or a version ("since 2026.7", "removed in 2026.5") with no source in the PR description or a review reply: core code at a release tag, or the release blog post. The source belongs in the PR. A link to core or frontend source code inside skill content is itself a problem to report: it costs tokens on every read and the agent cannot act on it.
 - A reference file that no SKILL.md row routes to, or a SKILL.md or README table row whose description no longer matches its file.
 - An MCP tool name (e.g. `ha_rename_entity`) in skill content. Skills name HA APIs and concepts, not tools.
 - A renamed HA term used without its old name and the version it changed ("named Developer Tools before 2026.8").
