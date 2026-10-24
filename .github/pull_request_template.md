@@ -1,6 +1,7 @@
 ## What does this PR do?
 
-<!-- Describe what your change does and why. -->
+<!-- Describe what your change does and why. State the final result only, not how you found it.
+List sources once, grouped by claim (core code at a release tag, or the release blog post). -->
 
 ## Checklist
 
